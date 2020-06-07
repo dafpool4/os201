@@ -1,1 +1,31 @@
+Script started on Sun 07 Jun 2020 07:52:07 PM WIB
+ananda.daffa@badak:~$ PS1="$ "
+$ echo $GitHubUser
+dafpool4
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200607-195604-fdd4-ananda.daffa/>
+$ PS1="\$(eval \$PSTAMP)"
+200607-195712-f302-ananda.daffa/> date
+Sun Jun  7 19:58:05 WIB 2020
+200607-195805-fb77-ananda.daffa/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ananda.daffa/.gnupg/pubring.gpg
+----------------------------------------------------------
+pub   4096R/55A400BE 2020-02-27
+uid       [ultimate] ananda daffa sabila isliyana (test) <dafpool4@gmail.com>
+sub   4096R/D4E017DD 2020-02-27
+
+pub   2048R/5770929A 2020-06-07
+uid       [ultimate] ananda daffa sabila isliyana (ok) <dafpool4@gmail.com>
+sub   2048R/DFEF97CD 2020-06-07
+
+pub   2048R/9784DD67 2020-06-07
+uid       [ultimate] ananda daffa sabila isliyana (ok) <dafpool4@gmail.com>
+sub   2048R/490A294A 2020-06-07
+
+200607-195832-e7b6-ananda.daffa/> exit
+exit
+
+Script done on Sun 07 Jun 2020 07:59:04 PM WIB
 
