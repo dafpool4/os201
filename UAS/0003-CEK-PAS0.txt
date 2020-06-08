@@ -1,1 +1,29 @@
+Script started on Mon 08 Jun 2020 07:42:08 PM WIB
+ananda.daffa@badak:~$ PS1="$ "
+$ echo $GitHubUser
+dafpool4
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200608-194426-152b-ananda.daffa/> ls -F
+0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt  0003-OSPUB.txt  0003-OSPUB.txt.save  coba.txt  testing.txt  testing.txt.asc
+200608-194446-bd88-ananda.daffa/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.asc > SHA1SUM
+200608-194510-4730-ananda.daffa/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-194526-3773-ananda.daffa/> gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "ananda daffa sabila isliyana (test) <dafpool4@gmail.com>"
+4096-bit RSA key, ID 55A400BE, created 2020-02-27
+
+200608-194547-e579-ananda.daffa/> gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon 08 Jun 2020 07:45:47 PM WIB using RSA key ID 55A400BE
+gpg: Good signature from "ananda daffa sabila isliyana (test) <dafpool4@gmail.com>" [ultimate]
+200608-194602-ccdd-ananda.daffa/> exit
+exit
+
+Script done on Mon 08 Jun 2020 07:46:16 PM WIB
 
