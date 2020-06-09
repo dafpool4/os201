@@ -1,9 +1,26 @@
-PS1="$ "
-echo $GitHubUser
-echo $PSTAMP
-eval $PSTAMP
-PS1="\$(eval \$PSTAMP)"
-echo -e $CEKSAYA
-echo -e $CEKSEBELA1
-echo -e $CEKSEBELA2
+Script started on Tue 09 Jun 2020 01:48:01 PM WIB
+ananda.daffa@badak:~$ echo -e $CEKSAYA
+dafpool4 ZCZCSCRIPTSTART 200607-195207 dafpool4
+ dafpool4 dafpool4 200607-195604-fdd4-ananda.daffa/ 200607-195604 SEQOK SUMOK fdd48df1
+ dafpool4 dafpool4 200607-195712-f302-ananda.daffa/ 200607-195712 SEQOK SUMOK f3025c80
+ dafpool dafpool4 200607-195805-fb77-ananda.daffa/ 200607-195805 SEQOK SUMOK fb777dd5
+ dafpool4 dafpool4 200607-195832-e7b6-ananda.daffa/ 200607-195832 SEQOK SUMOK e7b6464a
+ dafpool4 ZCZCSCRIPTSTOP 200607-195904 SEQOK
+ananda.daffa@badak:~$ echo -e $CEKSEBELA1
+dafpool4 ZCZCSCRIPTSTART 200607-221553 dariantexanditama
+ dafpool4 dariantexanditama 200607-221643-b3d1-darian/ 200607-221643 SEQOK SUMOK b3d1b8f6
+ dafpool4 dariantexanditama 200607-221653-d929-darian/ 200607-221653 SEQOK SUMOK d9292581
+ dafpool4 dariantexanditama 200607-221713-5a4c-darian/ 200607-221713 SEQOK SUMOK 5a4c4363
+ dafpool4 dariantexanditama 200607-221717-a817-darian/ 200607-221717 SEQOK SUMOK a817d45f
+ dafpool4 ZCZCSCRIPTSTOP 200607-221732 SEQOK
+ananda.daffa@badak:~$ echo -e $CEKSEBELA2
+dafpool4 ZCZCSCRIPTSTART 200602-194558 darklordace
+ dafpool4 darklordace 200602-194630-9d54-UAS/ 200602-194630 SEQOK SUMOK 9d549140
+ dafpool4 darklordace 200602-194635-1cef-UAS/ 200602-194635 SEQOK SUMOK 1cef6821
+ dafpool4 darklordace 200602-194643-91b1-UAS/ 200602-194643 SEQOK SUMOK 91b16729
+ dafpool4 darklordace 200602-194701-4b8b-UAS/ 200602-194701 SEQOK SUMOK 4b8b6441
+ dafpool4 ZCZCSCRIPTSTOP 200602-194734 SEQOK
+ananda.daffa@badak:~$ exit
 exit
+
+Script done on Tue 09 Jun 2020 01:49:10 PM WIB
