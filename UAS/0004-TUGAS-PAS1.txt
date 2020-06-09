@@ -1,0 +1,9 @@
+PS1="$ "
+echo $GitHubUser
+echo $PSTAMP
+eval $PSTAMP
+PS1="\$(eval \$PSTAMP)"
+echo -e $CEKSAYA
+echo -e $CEKSEBELA1
+echo -e $CEKSEBELA2
+exit
