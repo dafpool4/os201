@@ -1,4 +1,4 @@
-Script started on Tue 09 Jun 2020 01:48:01 PM WIB
+Script started on Mon 22 Jun 2020 07:43:35 AM WIB
 ananda.daffa@badak:~$ echo -e $CEKSAYA
 dafpool4 ZCZCSCRIPTSTART 200607-195207 dafpool4
  dafpool4 dafpool4 200607-195604-fdd4-ananda.daffa/ 200607-195604 SEQOK SUMOK fdd48df1
@@ -23,4 +23,4 @@ dafpool4 ZCZCSCRIPTSTART 200602-194558 darklordace
 ananda.daffa@badak:~$ exit
 exit
 
-Script done on Tue 09 Jun 2020 01:49:10 PM WIB
+Script done on Mon 22 Jun 2020 07:43:55 AM WIB
